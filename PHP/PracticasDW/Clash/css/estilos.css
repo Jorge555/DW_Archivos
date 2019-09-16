@@ -1,0 +1,25 @@
+
+
+body{
+background: url("../Imagenes/portada/menu.jpg");
+}
+
+
+.banner{
+	background: #fff;
+	clear: both;
+	font-family: monospace;
+
+
+}
+
+.banner .wrap{
+	padding: 10px 0px;
+
+}
+
+
+#tablero .row{
+	color:  #fff;
+	font-size: 36px;
+}

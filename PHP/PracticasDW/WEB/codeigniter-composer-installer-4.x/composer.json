@@ -1,0 +1,41 @@
+{
+    "name": "kenjis/codeigniter-composer-installer",
+    "description": "Package to install CodeIgniter via Composer.",
+    "keywords": [
+        "CodeIgniter",
+        "Composer",
+        "installer"
+    ],
+    "homepage": "https://github.com/kenjis/codeigniter-composer-installer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kenji Suzuki",
+            "email": "kenji.uui@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bcit-ci/CodeIgniter4"
+        }
+    ],
+    "require": {
+            "codeigniter4/framework": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kenjis\\CodeIgniter\\": "src/"
+        }
+    },
+    "scripts" : {
+        "post-create-project-cmd": [
+            "Kenjis\\CodeIgniter\\Installer::postInstall"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-4.x": "4.x-dev"
+        }
+    }
+}

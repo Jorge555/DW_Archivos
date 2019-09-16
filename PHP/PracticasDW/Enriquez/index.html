@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Datos de Usuario</h1>
+    <form class="" action="recepcion.php" method="post">
+      <label for="">Nombre <input type="text" name="nombre" value=""> </label><br><br>
+      <label for="">Apellido <input type="text" name="apellido" value=""> </label><br><br>
+      <label for="">Edad <input type="text" name="edad" value=""> </label><br><br>
+      <label for="">Nit<input type="text" name="nit" value=""> </label><br><br>
+      
+      <input type="submit" name="" value="Enviar datos">
+    </form>
+  </body>
+</html>
+
+<?php 
+session_start();
+$_SESSION['nombre'] = 'Enriquez'; 
+
+?>
+<form action='recepcion.php'> 
+
+<input type='submit'  
+<form>

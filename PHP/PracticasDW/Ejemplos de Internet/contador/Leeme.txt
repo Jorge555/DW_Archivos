@@ -1,0 +1,19 @@
+-~*´¨¯ CONTADOR DE VISITAS PHP & MySQL ¯¨`*·~-
+           ·´¯Fecha: 20/09/2003¯`·
+Creado por: BrEaThE (sld@ya.com) Copyrigth(2003)
+Modificalo a tu gusto el codigo pero no borres los comentarios originales del autor, Gracias.
+
+Descripción:
+	Sencillo contador de visitas que usa PHP y MySQL.
+
+	-contador.php: incluye la funcion que verifica las visitas y las contabiliza
+	en la base de datos (Se guarda la información en una cookie para que el resultado
+	sea mas fiable. esta función devuelve un Array donde la variable $resultadoVisitas[0]
+	es el total de visitas y $resultadoVisitas[1] es el numero de visitas del mes actual.
+	A la funcion contador es necesario pasarle el identificador de la conexion con la Base
+	de Datos, para poder realizar las consultas.
+
+	-contador.sql: Contiene una consulta de MySQL para crear la tabla "estadisticas" necesaria
+	para el contador.
+
+-- WwW.BrizSoFT.NeT --

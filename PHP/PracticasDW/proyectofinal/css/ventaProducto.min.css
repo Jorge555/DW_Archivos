@@ -1,0 +1,35 @@
+.banner{
+	background: #ffffff;
+	clear: both;
+	font-family: monospace;
+	
+	
+}
+
+.banner .wrap{
+	padding: 5px 0px;
+	
+}
+
+
+/* formulario */
+
+.formulario input{
+	border: none;
+	background: #E6E6E6;
+}
+
+#boton{
+	
+	background: #5b5b5b;
+	width: 100px;
+	border: none;
+	color: #FFF;
+	font-size: 14px;
+	cursor: pointer;
+	padding: 5px;
+}
+#boton:hover{
+	background: #000;
+}
+

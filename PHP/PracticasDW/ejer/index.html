@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>REGISTRO </h1>
+    <form class="" action="servidor.php" method="post">
+      <label for="">Nombre <input type="text" name="nombre" value=""> </label><br><br>
+      <label for="">Apellido <input type="text" name="apellido" value=""> </label><br><br>
+      <label for="">DPI <input type="text" name="dpi" value=""> </label><br><br>
+      <label for="">NIT <input type="text" name="nit" value=""> </label><br><br>
+      <label for="">Telefono<input type="text" name="telefono" value=""> </label><br><br>
+      <label for="">Edad <input type="text" name="edad" value=""> </label><br><br>
+      <label for="">Departamento <input type="text" name="depart" value=""> </label><br><br>
+      <label for="">Municipio <input type="text" name="muni" value=""> </label><br><br>
+      <label for="">Genero <input type="text" name="genero" value=""> </label><br><br>
+      <label for="">Etnia <input type="text" name="etnia" value=""> </label><br><br>
+      <input type="submit" name="" value="Enviar datos">
+    </form>
+  </body>
+</html>
+<?php 
+session_start();
+$_SESSION['nombre'] = 'Miguel Ramirez'; 
+
+?>
+<form action='servidor.php'> 
+
+<input type='submit' 
+<form>
